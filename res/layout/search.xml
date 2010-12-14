@@ -3,6 +3,6 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent" android:layout_marginBottom="61dip">
-<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/UpdateButton" android:text="Updatera kontakter"></Button>
 
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/UpdateButton" android:text="Updatera kontakter" android:onClick="@string/clickHandler"></Button>
 </LinearLayout>

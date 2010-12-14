@@ -4,7 +4,9 @@ import android.app.TabActivity;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TabHost;
+import android.util.Log;
 
 public class Main extends TabActivity {
     /** Called when the activity is first created. */
@@ -33,6 +35,8 @@ public class Main extends TabActivity {
                       .setContent(intent);
         tabHost.addTab(spec);
 
-        tabHost.setCurrentTab(0);
+        tabHost.setCurrentTab(0);  
     }
+    
+
 }
